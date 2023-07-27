@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    font: 18px "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    flex-direction: column;
+
+
+}
+
+.hero-wrapper, .footer-wrapper, .quote-wrapper, .info-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    flex: 1;
+
+}
+
+
+.hero, .footer {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    padding: 0 0 60px 0;
+
+}
+
+/* Adding VH (Can't make this work with menu)
+.hero {
+    min-height: 80vh;
+}
+*/
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.hero-content button {
+    background-color: #3882F6;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.header {
+    justify-content: flex-start;
+}
+
+.header .logo {
+    font: 24px inherit, #F9FAF8;
+    font-weight: bolder;
+}
+
+.hero-image, .hero-image img {
+    display: flex;
+    max-width: 100%;
+    max-height: 300px;
+    padding: 1rem 0;
+
+}
+
+.hero h1 {
+    font: 48px inherit, extra-bold;
+    color: #F9FAF8;
+}
+
+
+.hero p, .hero button {
+    font: 18px inherit;
+    color: #E5E7EB;
+}
+
+.logo {
+    font: 24px inherit;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.info-wrapper {
+    display: flex;
+    min-height: 450px;
+    align-items: center;
+
+}
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font: 36px "Roboto", sans-serif;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 7rem;
+}
+
+
+
+.illustration {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+
+}
+.quote-bg {
+    background-color: #E5E7EB;
+
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 10rem;
+
+}
+
+div.author {
+    margin-left: auto;
+    font-style: initial;
+    font-weight: bold;
+    
+}
+
+.cta-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+
+    
+}
+
+.cta {
+    display: flex;
+    width: 1100px;
+    margin: 5rem;
+    padding: 4rem 8rem;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+    border-radius: 10px;
+    color: white;
+}
+
+.cta h3, .cta p {
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.cta button {
+    padding: 10px 30px;
+    min-width: 60px;
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
